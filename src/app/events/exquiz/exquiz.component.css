@@ -40,7 +40,15 @@ li a:hover {
   cursor: pointer;
 }
 
-
+@media only screen and (max-width: 600px){
+    #event-details{
+        width: 100%;
+    }
+     
+    #event-image{
+        display: none;
+    }
+ }
 @media only screen and (max-width: 480px){
   .navbar {
     padding: 10px 20px;
@@ -94,7 +102,15 @@ li a:hover {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
-
+@media only screen and (max-width: 600px){
+    #event-details{
+        width: 100%;
+    }
+     
+    #event-image{
+        display: none;
+    }
+ }
 img, svg {
     vertical-align: middle;
 }

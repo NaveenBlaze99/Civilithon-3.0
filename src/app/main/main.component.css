@@ -30,11 +30,15 @@ li a:hover {
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
   .navbar {
     padding: 10px 20px;
     justify-content: space-between;
     z-index: 10;
+  }
+
+  .navbar-full{
+    display: none;
   }
 }
 
@@ -60,7 +64,7 @@ li a:hover {
   box-sizing: border-box;
 }
 .content p {
-  font-size: 40px;
+  font-size: 2rem;
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: solid;

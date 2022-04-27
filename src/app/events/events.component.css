@@ -41,12 +41,16 @@ cursor: pointer;
 }
 
 
-@media only screen and (max-width: 480px){
-.navbar {
-  padding: 10px 20px;
-  justify-content: space-between;
-  z-index: 10;
-}
+@media only screen and (max-width: 600px){
+  .navbar {
+    padding: 10px 20px;
+    justify-content: space-between;
+    z-index: 10;
+  }
+
+  .navbar-full{
+    display: none;
+  }
 }
 
 .event{
