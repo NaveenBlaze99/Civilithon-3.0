@@ -77,16 +77,31 @@ li a:hover {
 
 @media only screen and (max-width: 480px){
  .cad{
-   width: 480px;
-   height: auto;
-   font-size: 100px;
+   width: 400px;
+   height: 20px;
  }
  
  .video{
    width:400px;
    height: 400px;
+   margin-left: 15px;
  }
 }
+
+@media only screen and (max-width: 395px){
+  .cad{
+    width: 350px;
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  .video{
+    width:350px;
+    height: 350px;
+    margin-left: 15px;
+  }
+ }
+
 
 
 
