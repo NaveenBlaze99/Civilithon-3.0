@@ -48,9 +48,9 @@ cursor: pointer;
     z-index: 10;
   }
 
-  .navbar-full{
+  /* .navbar-full{
     display: none;
-  }
+  } */
 }
 
 .event{

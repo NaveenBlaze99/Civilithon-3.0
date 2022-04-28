@@ -109,8 +109,20 @@ svg {
   #event-details {
     width: 100%;
   }
+  .caddam{
+    width: 100%;
+  }
 
   #event-image {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1180px){
+  #event-details{
+    width: 100%;
+  }
+  .caddam{
+    width: 100%;
   }
 }
