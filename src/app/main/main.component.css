@@ -1,0 +1,98 @@
+.navbar {
+    position: relative;
+    padding: 10px 20px;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item.active .nav-link {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.nav-item .nav-link  :hover {
+    cursor: pointer;
+}
+.navbar-full{
+  display: flex;
+  flex-direction: row;
+}
+.navbar-full div{
+  margin-left: 8px;
+}
+
+li a:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px){
+  .navbar {
+    padding: 10px 20px;
+    justify-content: space-between;
+    z-index: 10;
+  }
+
+  /* .navbar-full{
+    display: none;
+  } */
+}
+
+
+.cad {
+  width: 100%;
+  height: 100%; 
+  position: absolute;
+}
+.cad span {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: 1s;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+.content p {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: solid;
+}
+
+.video{
+  width: 600px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 480px){
+ .cad{
+   width: 480px;
+   height: auto;
+   font-size: 100px;
+ }
+ 
+ .video{
+   width:400px;
+   height: 400px;
+ }
+}
+
+
+
+
+
+
+
+
+
