@@ -89,13 +89,12 @@ li a:hover {
   .cad{
     width: 400px;
     height: 20px;
+    margin-left: 15px;
     text-align: center;
   }
   
   .video{
     width:400px;
-    /* height: 400px; */
-    margin-left: 15px;
   }
  }
  
@@ -103,13 +102,12 @@ li a:hover {
    .cad{
      width: 300px;
      font-size: 100px;
+     margin-left: 15px;
      text-align: center;
    }
    
    .video{
      width:350px;
-     /* height: 350px; */
-     margin-left: 10px;
    }
   }
 
