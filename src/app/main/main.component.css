@@ -51,7 +51,7 @@ li a:hover {
 .cad span {
   height: 100%;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   transition: 1s;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,34 +71,45 @@ li a:hover {
 }
 
 .video{
+  margin-top: 20px;
   width: 600px;
-  height: 500px;
+  /* height: 500px; */
+}
+.sponsor{
+  width:100px;
+  height: 100px;
+}
+.sponsor:hover{
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 480px){
   .cad{
     width: 400px;
     height: 20px;
+    text-align: center;
   }
   
   .video{
     width:400px;
-    height: 400px;
+    /* height: 400px; */
     margin-left: 15px;
   }
  }
  
  @media only screen and (max-width: 395px){
    .cad{
-     width: 350px;
+     width: 300px;
      font-size: 100px;
      text-align: center;
    }
    
    .video{
      width:350px;
-     height: 350px;
-     margin-left: 15px;
+     /* height: 350px; */
+     margin-left: 10px;
    }
   }
 
